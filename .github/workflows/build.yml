@@ -1,5 +1,6 @@
 name: Build
 on:
+  workflow_dispatch:  # 添加手动触发的支持
   push:
     branches: [master]
     paths-ignore: [README.md]
